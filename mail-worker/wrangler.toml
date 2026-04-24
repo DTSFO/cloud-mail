@@ -26,9 +26,10 @@ crons = ["0 16 * * *"]
 
 [vars]
 orm_log = false
-domain = ["dtsddh.dpdns.org"]
-admin = "dtsfo@dtsddh.dpdns.org"
+domain = ["ddhdts.dpdns.org"]
+admin = "dtsfo@ddhdts.dpdns.org"
 jwt_secret = "ae4f112080dd1bfc5296dcbb4e6af69891a8babe800c895554a742b09371b69a"
 
 [build]
 command = "pnpm --prefix ../mail-vue install && pnpm --prefix ../mail-vue run build"
+
